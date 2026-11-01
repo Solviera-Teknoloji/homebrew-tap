@@ -1,9 +1,9 @@
 cask "agentvera" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.8.18"
-  sha256 arm:   "3d26160efb1bc1fece318deb6d3375fc51bac707cea88e0157b7f87419d4927d",
-         intel: "2710dc4015d5835a1d79549794a4c6e0f26a3df4395a294141f382aa8521c682"
+  version "0.9.0"
+  sha256 arm:   "3805a6c6a636f72b534c3ea3608783771f506373a618dd85657e58501b184fb4",
+         intel: "762558dd94f1f3db86962648083531ba1bc6059f770eb0f29268710102801347"
 
   url "https://agentvera.dev/downloads/#{version}/AgentVera-mac-#{arch}.dmg"
   name "AgentVera"
