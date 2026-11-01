@@ -16,14 +16,14 @@ cask "agentvera" do
   end
 
   auto_updates true
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "AgentVera.app"
 
   zap trash: [
     "~/Library/Application Support/AgentVera",
-    "~/Library/Caches/agentvera-updater",
     "~/Library/Caches/AgentVera",
+    "~/Library/Caches/agentvera-updater",
     "~/Library/Caches/dev.agentvera.app",
     "~/Library/Caches/dev.agentvera.app.ShipIt",
     "~/Library/HTTPStorages/dev.agentvera.app",
